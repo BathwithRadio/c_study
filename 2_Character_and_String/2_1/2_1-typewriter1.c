@@ -8,12 +8,11 @@ int main()
     {
         a = getchar();
         if (a == EOF)
-        {
             break;
-            putchar(a);
-        }
+        putchar(a);
+        
         
     };
-    
+
     return(0);    
 }
